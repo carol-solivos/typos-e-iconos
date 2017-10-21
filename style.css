@@ -1,0 +1,52 @@
+body {
+	font-family: 'Comfortaa', cursive;
+}
+
+p{
+	font-size: 11px;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+h4{
+	color: #777;
+}
+.madre{
+	text-align: center;
+	position: relative;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 100%;
+}
+.cajas {
+	display: inline-block;
+	background-color: #eee;
+	width: 170px;
+	padding: 30px;
+
+}
+
+.cajas:hover {
+	width: 190px;
+	transition: width 1s;
+}
+
+.fa-heart, .fa-diamond, .fa-coffee, .fa-cutlery, .fa-paper-plane{
+	color: #555;
+	
+}
+
+.fa {
+	font: normal normal normal 80px/1 FontAwesome !important;
+
+}
+
+.fa:hover{
+	font: normal normal normal 100px/1 FontAwesome !important;
+	color: #FF00E4;
+	transition: font 1s;
+
+}
